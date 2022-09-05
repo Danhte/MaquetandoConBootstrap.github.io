@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+body{
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+
+#menu a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #3f3f3f;
+
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.carousel-inner {
+    max-height: 40rem;
+}
+
+#intro > p{
+    color: rgb(87, 87, 87) !important; 
+}
+
+form{
+    color: rgb(5, 147, 62);
+    font-family: "poppins";
+}
+
+@media screen and (min-width: 200px) and (max-width: 540px) {
+
+    #intro {
+        width: 85% !important;
+        margin: 5px;
+    }
+
+    #intro > h1{
+        font-size: 19px !important; 
+    }
+
+    #intro > p{
+        font-size: 13.8px !important;
+        color: rgb(77, 77, 77); 
+    }
+
+    .card-title{
+        font-size: .95rem !important;
+    }
+
+    .card-text{
+        font-size: 0rem !important;
+    }
+ }
+
+@media screen and (min-width: 540px) and (max-width: 904px) {
+
+    #intro {
+        width: 85% !important;
+        margin: 5px;
+    }
+
+    #intro > h1{
+        font-size: 20.6px !important; 
+    }
+
+    #intro > p{
+        font-size: 15px !important;
+        color: gray; 
+    }
+
+    .card-title{
+        font-size: 1rem !important;
+    }
+
+    .card-text{
+        font-size: .87rem !important;
+    }
+}
