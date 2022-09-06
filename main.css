@@ -6,6 +6,10 @@ body{
     overflow-x: hidden;
 }
 
+#lol{
+background-color: rgba(168, 185, 165, 0.699);
+}
+
 #menu a{
     font-size: 18px;
     font-weight: 400;
@@ -30,6 +34,24 @@ form{
     color: rgb(5, 147, 62);
     font-family: "poppins";
 }
+
+.login {
+    width: 460px;
+    height: min-content;
+    padding: 30px;
+    border-radius: 12px;
+    background: #e4e4e480;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+#asinomas{
+    padding: 300px !important;
+}
+
 
 @media screen and (min-width: 200px) and (max-width: 540px) {
 

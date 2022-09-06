@@ -42,7 +42,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="./login.html">Login</a>
               </li>
-            </ul> 
+            </ul>  
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Destino" aria-label="Email">
               <button class="btn btn-success btn-success-outline" type="button">Encontrar</button>
@@ -51,48 +51,32 @@
         </div>
       </nav>
 
-        <div class="container-fluid p-5 row mx-auto text-right pt-2 justify-content-around">
-        <div class="card g-0" style="width: 60%;">
-          <img src="../img/5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Desde Tijuana (TIJ) A Guadalajara (GDL)</h5>
-            <p class="card-text">Desde 884MXN* Clase Económica <br> Reserva una habitación en cualquier parte del mundo.</p>
-            <a href="#" class="btn btn-primary">Reserva Ya</a>
-          </div>
-        </div>
-      
-        <div class="card g-0" style="width: 30%;">
-          <img src="../img/a2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Desde Guadalajara (GDL) A Cancún (CUN)</h5>
-            <p class="card-text">Desde 1,214MXN* Clase Premium <br> Reserva una habitación en cualquier parte del mundo.</p>
-            <a href="#" class="btn btn-primary">Reserva Ya</a>
-          </div>
-        </div>
-      </div>
-      
-        <div class="container-fluid p-5 row mx-auto text-right pt-2 justify-content-around">
-      
-        <div class="card g-0" style="width:45%;">
-          <img src="../img/a3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Desde Monterrey (MTY) A Cancún (CUN)</h5>
-            <p class="card-text">Desde 312MXN* Clase Económica <br> -Reserva una habitación en cualquier parte del mundo. <br>
-              Encuentra las mejores ofertas para tu viaje. </p>
-            <a href="#" class="btn btn-primary">Reserva Ya</a>
-          </div>
-        </div>
-      
-        <div class="card g-0" style="width: 45%;">
-          <img src="../img/a1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Desde Los Cabos (SJD) A Ciudad De México (MEX)</h5>
-            <p class="card-text">Desde 582MXN* Clase Económica <br> Reserva una habitación en cualquier parte del mundo..</p>
-            <a href="#" class="btn btn-primary">Reserva Ya</a>
-          </div>
-        </div>
-      </div>
-
-
+<div class="row justify-content-center pt-5">
+      <div class="login">
+        <h1 class="text-center">Login</h1>
+        
+        <form class="needs-validation">
+            <div class="form-group was-validated">
+                <label class="form-label" for="email">Correo electronico</label>
+                <input class="form-control" type="email" id="email" required>
+                <div class="invalid-feedback">
+                    Please enter your Correo electronico (Spanish)
+                </div>
+            </div>
+            <div class="form-group was-validated">
+                <label class="form-label" for="password">Contraseña</label>
+                <input class="form-control" type="password" id="password" required>
+                <div class="invalid-feedback">
+                    Please enter your Contraseña
+                </div>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" id="check">
+                <label for="check">Recordarme</label>
+            </div>
+            <input class="btn btn-success w-100" type="submit" value="Iniciar Sesion">
+        </form>
+    </div>
+</div>
 </body>
 </html>
